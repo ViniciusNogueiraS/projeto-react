@@ -1,0 +1,55 @@
+.modal-flow {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #0000004d;
+}
+.modal {
+  position: relative;
+  left: 300px;
+  top: 10vh;
+  width: 70vw;
+  height: 80%;
+  background-color: #eee;
+  border: 2px solid #cecece;
+  box-shadow: 0 0 20px #0000004d;
+}
+.modal .btn-close {
+  position: absolute;
+  right: 0;
+  border: none;
+  padding: 12px;
+  font-size: 26px;
+  line-height: 22px;
+  font-weight: bold;
+  font-family: inherit;
+  color: gray;
+  cursor: pointer;
+}
+.modal .btn-close:hover {
+  color: #1a1a1a;
+}
+
+.modal .stts {
+  margin-left: 12px;
+}
+
+.modal .callId {
+  position: absolute;
+  top: 9.5vh;
+  left: 1.3rem;
+  color: gray;
+}
+
+.modal .contentCall {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 20px;
+}
+.modal .contentCall label {
+  font-size: 20px;
+}
+.modal .contentCall label p {
+  white-space: pre-wrap;
+}
+

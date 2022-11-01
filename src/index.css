@@ -37,6 +37,8 @@ code {
   justify-content: center;
   align-items: center;
 }
+.text-a,
+.input-s,
 .input-t {
   border: none;
   border-radius: 8px;
@@ -48,6 +50,10 @@ code {
   line-height: 20px;
   font-weight: normal;
   padding: 8px 14px;
+}
+.text-a {
+  resize: none;
+  width: 100%;
 }
 .btn-primary {
   background-image: linear-gradient(45deg, seagreen, rgb(55, 170, 105));
@@ -61,6 +67,7 @@ code {
   margin: 10px;
   cursor: pointer;
   max-width: 200px;
+  text-decoration: none;
 }
 .btn-primary:hover,
 .btn-primary.loading {
@@ -79,6 +86,7 @@ code {
   margin: 10px;
   cursor: pointer;
   max-width: 200px;
+  text-decoration: none;
 }
 .btn-secondary:hover,
 .btn-secondary.loading {
@@ -129,4 +137,37 @@ code {
   font-weight: bold;
   margin: 0 12px;
   text-decoration: none;
+}
+.radio-group {
+  display: flex;
+  flex-direction: row;
+}
+.radio-group label {
+  display: inline-block;
+  padding: 5px;
+  margin: 0 4px;
+  font-size: 16px;
+  line-height: 16px;
+}
+.radio-group label input {
+  margin: 5px;
+}
+
+
+.stts {
+  color: #fff;
+  border-radius: 5px;
+  font-family: monospace;
+  font-size: 18px;
+  padding: 4px 10px;
+  text-transform: uppercase;
+}
+.stts_aberto {
+  background-color: #1973af;
+}
+.stts_concluido {
+  background-color: #7baf19;
+}
+.stts_progresso {
+  background-color: #d1b412;
 }

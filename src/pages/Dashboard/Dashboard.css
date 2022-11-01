@@ -28,3 +28,43 @@
   font-weight: bold;
   padding: 6px 12px;
 }
+
+.subwrapHeader {
+  margin-bottom: 20px;
+  text-align: start;
+}
+
+.flow {
+  overflow-y: auto;
+  height: 70%;
+  border: 2px solid #575757;
+}
+
+table {
+  background-color: #fff;
+  border-spacing: 0;
+  width: 100%;
+}
+table th {
+  background-color: #575757;
+  color: #fff;
+  padding: 8px;
+  font-size: 20px;
+  line-height: 22px;
+}
+table td {
+  padding: 8px;
+  font-size: 20px;
+  line-height: 22px;
+  text-align: center;
+}
+table tr:not(.thead) {
+  cursor: pointer;
+  height: 48px;
+}
+table tr:nth-child(even) {
+  background-color: #eee;
+}
+table tr:hover:not(.thead) {
+  background-color: #ddece4;
+}
